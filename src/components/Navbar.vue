@@ -53,7 +53,7 @@ import { getTheme } from '../utils'
 @Component({})
 export default class Navbar extends Vue {
   hide = false
-  name = packageInfo.name
+  name = 'Paystack API Client'
   version = packageInfo.version
   homePageUrl = packageInfo.homepage
   theme = getTheme() || 'default'
