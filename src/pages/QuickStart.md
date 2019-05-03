@@ -32,3 +32,8 @@ composer require xeviant/paystack
     // Retrieves Customers
     $customers = $paystack->customers()->list();
 ```
+
+::: tip
+In the above examples, we call the API method and then the the part of the API you want to access
+In this example I am accessing the list feature of the customers API <a href="https://developers.paystack.co/reference">here</a>
+:::

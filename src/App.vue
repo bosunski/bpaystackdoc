@@ -64,80 +64,81 @@ export default class App extends Vue {
 }
 
 #app {
-  display: flex;
-  font-size: 14px;
-  font-family: Avenir,-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Helvetica Neue',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol',sans-serif;
-  color: #2c3e50;
-  height: 100vh;
-  overflow: hidden;
+    display: flex;
+    font-size: 14px;
+    font-family: Avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+    color: #2c3e50;
+    height: 100vh;
+    overflow: hidden;
 
-  .content {
-    flex: 1;
-    overflow: auto;
-  }
-
-  .header-anchor {
-    position: absolute;
-    left: -20px;
-    top: 0;
-    color: pink;
-    opacity: 0;
-    transition: opacity .5s;
-  }
-
-  .vue-slider:not(:first-child) {
-    margin-top: 45px;
-  }
-
-  .markdown-body {
-    font-family: inherit;
-    max-width: 1040px;
-    padding: 120px 60px 40px;
-    margin: 0 auto;
-    color: #34495e;
-    @include max-screen(992px) {
-      & {
-        padding: 30px 20px 20px;
-        width: 100%;
-      }
+    .content {
+        flex: 1;
+        overflow: auto;
     }
 
-    h2, h3 {
-      position: relative;
-      margin-top: 90px;
-      &:hover .header-anchor {
-        opacity: 1;
-      }
+    .header-anchor {
+        position: absolute;
+        left: -20px;
+        top: 0;
+        color: pink;
+        opacity: 0;
+        transition: opacity .5s;
+    }
 
-      @include max-screen(992px) {
-        & {
-          margin-top: 50px;
+    .vue-slider:not(:first-child) {
+        margin-top: 45px;
+    }
+
+    .markdown-body {
+        font-family: inherit;
+        max-width: 1040px;
+        padding: 120px 60px 40px;
+        margin: 0 auto;
+        color: #34495e;
+        @include max-screen(992px) {
+            & {
+                padding: 30px 20px 20px;
+                width: 100%;
+            }
         }
-      }
-    }
 
-    ol {
-      margin-top: 30px;
-    }
+        h2, h3 {
+            position: relative;
+            margin-top: 90px;
 
-    code:not([class^="language-"]) {
-      color: $main;
-      padding: 3px 5px;
-      margin: 0 2px;
-      border-radius: 2px;
-      white-space: nowrap;
-    }
+            &:hover .header-anchor {
+                opacity: 1;
+            }
 
-    .CodeMirror pre {
-      line-height: 1.45;
-      font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
-    }
+            @include max-screen(992px) {
+                & {
+                    margin-top: 50px;
+                }
+            }
+        }
 
-    // https://github.com/codemirror/CodeMirror/issues/5269
-    .cm-tag.cm-error {
-      color: #ff5370;
-      background-color: transparent;
+        ol {
+            margin-top: 30px;
+        }
+
+        code:not([class^="language-"]) {
+            color: $main;
+            padding: 3px 5px;
+            margin: 0 2px;
+            border-radius: 2px;
+            white-space: nowrap;
+        }
+
+        .CodeMirror pre {
+            line-height: 1.45;
+            font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+        }
+
+        // https://github.com/codemirror/CodeMirror/issues/5269
+        .cm-tag.cm-error {
+            color: #ff5370;
+            background-color: transparent;
+        }
     }
-  }
 }
 </style>
