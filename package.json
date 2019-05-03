@@ -40,7 +40,9 @@
     "prettier": "prettier --write lib/**/*.{ts,tsx,scss}",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "deploy:docs": "sh scripts/deploy.sh"
+    "deploy:docs": "sh scripts/deploy.sh",
+    "postinstall": "npm run build",
+    "start": "node server.js"
   },
   "gitHooks": {
     "pre-commit": "lint-staged",
@@ -67,6 +69,7 @@
     "chai": "^4.1.2",
     "codemirror": "^5.44.0",
     "commitlint": "^7.3.2",
+    "express": "^4.16.4",
     "lint-staged": "^8.1.0",
     "markdown-it-anchor": "^5.0.2",
     "markdown-it-container": "^2.0.0",
@@ -74,6 +77,7 @@
     "prettier": "^1.15.2",
     "sass": "^1.16.0",
     "sass-loader": "^7.0.1",
+    "serve-static": "^1.13.2",
     "typescript": "^3.0.0",
     "uslug": "^1.0.4",
     "vue": "^2.6.6",

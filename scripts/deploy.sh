@@ -14,12 +14,12 @@ cd docs
 
 git init
 git add -A
-git commit -m 'docs: 🎉 deploy'
+git commit -m 'Docs: 🚀 Deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:NightCatSama/vue-slider-component.git master:gh-pages
+git push -f git@github.com:bosunski/bpaystackdoc.git master:gh-pages
 
 cd -
