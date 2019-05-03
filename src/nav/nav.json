@@ -6,25 +6,5 @@
     "component": "QuickStart.md"
   }],
   "API Reference": [
-    {
-      "name": "Props",
-      "route": "api/props",
-      "component": "Api/Props.md"
-    },
-    {
-      "name": "Events",
-      "route": "api/events",
-      "component": "Api/Events.md"
-    },
-    {
-      "name": "Slots",
-      "route": "api/slots",
-      "component": "Api/Slots.md"
-    },
-    {
-      "name": "Methods",
-      "route": "api/methods",
-      "component": "Api/Methods.md"
-    }
   ]
 }
