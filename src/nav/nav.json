@@ -4,10 +4,6 @@
     "name": "QuickStart",
     "route": "",
     "component": "QuickStart.md"
-  }, {
-    "name": "Style theme",
-    "route": "style",
-    "component": "Style.md"
   }],
   "API Reference": [
     {

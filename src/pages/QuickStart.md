@@ -1,5 +1,9 @@
 # QuickStart Guide
 
+## Requirements
+- **PHP**: 7.1 and Up
+- Composer
+
 ## Installation
 
 ```bash

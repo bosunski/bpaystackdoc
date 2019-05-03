@@ -1,7 +1,7 @@
 {
   "name": "Paystack-API-Client",
   "version": "0.0.31",
-  "description": "A highly customized slider component",
+  "description": "A powerful Paystack Client for PHP",
   "keywords": [
     "vue",
     "slider",
@@ -21,14 +21,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NightCatSama/vue-slider-component.git"
+    "url": "git+https://github.com/bosunski/paystack.git"
   },
-  "author": "NightCatSama <642163903@qq.com>",
+  "author": "Bosun Egberinde <bosunski.fun/about>",
   "licenses": "MIT",
   "bugs": {
-    "url": "https://github.com/NightCatSama/vue-slider-component/issues"
+    "url": "https://github.com/bosunski/paystack/issues"
   },
-  "homepage": "https://github.com/NightCatSama/vue-slider-component",
+  "homepage": "https://github.com/bosunski/paystack",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

@@ -4,7 +4,7 @@
       <div class="hide-btn" @click="hide = true"></div>
       <div class="btn-group">
         <div class="btn switch-btn" @click="hide = !hide"></div>
-        <div class="btn language-btn" @click="switchLanguage">{{ nextLanguage }}</div>
+        <!--<div class="btn language-btn" @click="switchLanguage">{{ nextLanguage }}</div>-->
         <a class="btn github-btn" :href="homePageUrl" target="_blank"></a>
       </div>
     </aside>
