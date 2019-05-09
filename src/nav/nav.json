@@ -1,10 +1,115 @@
 {
   "": [
-  {
-    "name": "QuickStart",
-    "route": "",
-    "component": "QuickStart.md"
-  }],
+	{
+	  "name": "QuickStart",
+	  "route": "",
+	  "component": "QuickStart.md"
+	}],
   "API Reference": [
+	{
+	  "name": "Introduction",
+	  "route": "api",
+	  "component": "Api/Introduction.md"
+	},
+	{
+	  "name": "Transactions",
+	  "route": "api/transactions",
+	  "component": "Api/Transactions.md"
+	},
+	{
+	  "name": "Customers",
+	  "route": "api/customers",
+	  "component": "Api/Customers.md"
+	},
+	{
+	  "name": "Sub Accounts",
+	  "route": "api/subaccounts",
+	  "component": "Api/SubAccounts.md"
+	},
+	{
+	  "name": "Plans",
+	  "route": "api/plans",
+	  "component": "Api/Plans.md"
+	},
+	{
+	  "name": "Subscriptions",
+	  "route": "api/subscriptions",
+	  "component": "Api/Subscriptions.md"
+	},
+	{
+	  "name": "Payment Pages",
+	  "route": "api/payment-pages",
+	  "component": "Api/PaymentPAGES.md"
+	},
+	{
+	  "name": "Payment Pages"
+	},
+	{
+	  "name": "Invoices",
+	  "route": "api/invoices",
+	  "component": "Api/Invoices.md"
+	},
+	{
+	  "name": "Settlements",
+	  "route": "api/settlements",
+	  "component": "Api/Settlements.md"
+	},
+	{
+	  "name": "Transfer Recipients",
+	  "route": "api/transfer-recipients",
+	  "component": "Api/TransferRecipients.md"
+	},
+	{
+	  "name": "Transfers",
+	  "route": "api/transfers",
+	  "component": "Api/Transfers.md"
+	},
+	{
+	  "name": "Transfers Control",
+	  "route": "api/transfers-control",
+	  "component": "Api/TransferControl.md"
+	},
+	{
+	  "name": "Charge",
+	  "route": "api/charge",
+	  "component": "Api/Charge.md"
+	},
+	{
+	  "name": "Refunds",
+	  "route": "api/refunds",
+	  "component": "Api/Refund.md"
+	},
+	{
+	  "name": "Verifications",
+	  "route": "api/verification",
+	  "component": "Api/Verification.md"
+	},
+	{
+	  "name": "Miscellaneous",
+	  "route": "api/miscellaneous",
+	  "component": "Api/Miscellaneous.md"
+	}
+  ],
+  "Events": [
+	{
+	  "name": "Introduction"
+	},
+	{
+	  "name": "Listening To Events"
+	},
+	{
+	  "name": "Event Types"
+	}
+  ],
+  "Laravel Integration": [
+	{
+	  "name": "Introduction"
+	},
+	{
+	  "name": "Setting Up"
+	},
+	{
+	  "name": "Paystack WebHook"
+	}
   ]
 }
