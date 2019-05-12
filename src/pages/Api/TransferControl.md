@@ -1,7 +1,7 @@
-# TRANSFERS CONTROL
+# Transfer Control
 
-## getCheck Balance
-## postResend OTP for Transfer
-## postDisable OTP requirement for Transfers
-## postFinalize Disabling of OTP requirement for Transfers
-## postEnable OTP requirement for Transfers
+## Checking Balance
+## Resending OTP for Transfer
+## Disabling OTP requirement for Transfers
+## Finalizing Disabling of OTP requirement for Transfers
+## Enabling OTP requirement for Transfers

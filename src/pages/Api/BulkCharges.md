@@ -1,8 +1,8 @@
-# BULK CHARGES
+# Bulk Charges
 
-## postInitiate Bulk Charge
-## getList Bulk Charge Batches
-## getFetch Bulk Charge Batch
-## getFetch Charges in a Batch
-## getPause Bulk Charge Batch
-## getResume Bulk Charge Batch
+## Initiating Bulk Charge
+## Listing Bulk Charge Batches
+## Fetching Bulk Charge Batch
+## Fetching Charges in a Batch
+## Pausing Bulk Charge Batch
+## Resuming Bulk Charge Batch

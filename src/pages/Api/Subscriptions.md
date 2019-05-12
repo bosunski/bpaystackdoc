@@ -1,7 +1,7 @@
-# SUBSCRIPTIONS
+# Subscriptions
 
-## postCreate Subscription
-## getList Subscriptions
-## postDisable Subscription
-## postEnable Subscription
-## getFetch Subscription
+## Creating Subscription
+## Listing Subscriptions
+## Disabling Subscription
+## Enabling Subscription
+## Fetching Subscription

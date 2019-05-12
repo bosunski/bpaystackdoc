@@ -1,4 +1,4 @@
-# CONTROL PANEL
+# Control Panel
 
-## getFetch Payment Session Timeout
-## putUpdate Payment Session Timeout
+## Fetching Payment Session Timeout
+## Updating Payment Session Timeout

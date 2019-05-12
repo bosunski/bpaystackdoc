@@ -1,7 +1,7 @@
-# PAYMENT PAGES
+# Payment Pages
 
-## postCreate Page
-## getList Pages
-## getFetch Page
-## putUpdate Page
-## getCheck Slug Availability
+## Creating a Page
+## Listing Pages
+## Fetching Page
+## Updating Page
+## Checking Slug Availability

@@ -1,6 +1,6 @@
-# SUBACCOUNTS
+# Subaccounts
 
-## postCreate Subaccount
-## getList Subaccounts
-## getFetch Subaccount
-## putUpdate Subaccount
+## Creating Subaccount
+## Listing Subaccounts
+## Fetching Subaccount
+## Updating Subaccount

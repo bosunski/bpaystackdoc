@@ -1,8 +1,9 @@
-# CUSTOMERS
+# Customers
 
-## postCreate Customer
-## getList Customers
-## getFetch Customer
-## putUpdate Customer
-## postWhite/blacklist Customer
-## postDeactivate Authorization
+## Creating Customer
+## Listing Customers
+## Fetching Customer
+## Updating Customer
+## White-listing Customer
+## Black-listing Customer
+## Deactivating Authorization

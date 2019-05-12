@@ -1,5 +1,5 @@
-# REFUNDS
+# Refunds
 
-## postCreate Refund
-## getList Refunds
-## getFetch Refund
+## Creating Refund
+## Listing Refunds
+## Fetching Refund

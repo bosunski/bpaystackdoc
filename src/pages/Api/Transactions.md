@@ -1,9 +1,9 @@
-# TRANSACTIONS
+# Transactions
 
 ## Initializing Transactions
 ## Verifying Transactions
 ## Listing Transactions
-## Fetching a Transaction
+## Fetching Transaction
 ## Charge Authorization
 ## Viewing Transaction Timeline
 ## Transaction Totals

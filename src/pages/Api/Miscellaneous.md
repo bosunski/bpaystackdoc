@@ -1,3 +1,3 @@
-# MISCELLANEOUS
+# Miscellaneous
 
-## getList Banks
+## Listing Banks

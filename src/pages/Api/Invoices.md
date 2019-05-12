@@ -1,12 +1,12 @@
-# INVOICES
+# Invoices
 
-## postCreate Invoice
-## getList Invoices
-## getView Invoice
-## getVerify Invoice
-## postSend Notification
-## getGet Invoice metrics for dashboard
-## postFinalize a Draft Invoice
-## putUpdate Invoice
-## postArchive Invoice
-## postMark As Paid
+## Creating Invoice
+## Listing Invoices
+## Viewing Invoice
+## Verifying Invoice
+## Sending Notification
+## Getting Invoice metrics for dashboard
+## Finalizing a Draft Invoice
+## Updating Invoice
+## Archiving Invoice
+## Marking As Paid

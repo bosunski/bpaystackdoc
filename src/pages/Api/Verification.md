@@ -1,6 +1,6 @@
-# VERIFICATION
+# Verification
 
-## getResolve BVN
-## getResolve Account Number
-## getResolve Card BIN
-## postResolve Phone Number
+## Resolving BVN
+## Resolving Account Number
+## Resolving Card BIN
+## Resolving Phone Number

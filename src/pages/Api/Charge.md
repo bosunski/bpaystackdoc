@@ -1,8 +1,8 @@
-# CHARGE
+# Charge
 
-## postCharge
-## postSubmit PIN
-## postSubmit OTP
-## postSubmit Phone
-## postSubmit Birthday
-## getCheck pending charge
+## Charge
+## Submit PIN
+## Submit OTP
+## Submit Phone
+## Submit Birthday
+## Check pending charge

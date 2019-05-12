@@ -1,7 +1,7 @@
-# TRANSFERS
+# Transfers
 
-## postInitiate Transfer
-## getList Transfers
-## getFetch Transfer
-## postFinalize Transfer
-## postInitiate Bulk Transfer
+## Initiating Transfer
+## Listing Transfers
+## Fetching Transfer
+## Finalizing Transfer
+## Initiating Bulk Transfer

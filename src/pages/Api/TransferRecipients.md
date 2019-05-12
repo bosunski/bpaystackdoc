@@ -1,6 +1,6 @@
-# TRANSFER RECIPIENTS
+# Transfer Recipients
 
-## postCreate Transfer Recipient
-## getList Transfer Recipients
-## putUpdate Transfer Recipient
-## deleteDelete Transfer Recipient
+## Creating Transfer Recipient
+## Listing Transfer Recipients
+## Updating Transfer Recipient
+## Deleting Transfer Recipient

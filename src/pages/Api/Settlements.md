@@ -1,3 +1,3 @@
-# SETTLEMENTS
+# Settlements
 
-## getFetch Settlements
+## Fetching Settlements

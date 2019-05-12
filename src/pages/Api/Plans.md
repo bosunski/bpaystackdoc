@@ -1,6 +1,6 @@
-# PLANS
+# Plans
 
-## postCreate Plan
-## getList Plans
-## getFetch Plan
-## putUpdate Plan
+## Creating Plan
+## Listing Plans
+## Fetching Plan
+## Updating Plan
