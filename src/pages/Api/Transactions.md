@@ -1,4 +1,4 @@
-# Transactions
+# TRANSACTIONS
 
 ## Initializing Transactions
 ## Verifying Transactions

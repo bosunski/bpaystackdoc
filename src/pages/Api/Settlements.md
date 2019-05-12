@@ -1,0 +1,3 @@
+# SETTLEMENTS
+
+## getFetch Settlements
