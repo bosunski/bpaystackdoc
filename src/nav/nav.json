@@ -101,6 +101,8 @@
 	  "name": "Event Types"
 	}
   ],
+  "API Models": [
+  ],
   "Laravel Integration": [
 	{
 	  "name": "Introduction"
