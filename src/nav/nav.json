@@ -39,10 +39,7 @@
 	{
 	  "name": "Payment Pages",
 	  "route": "api/payment-pages",
-	  "component": "Api/PaymentPAGES.md"
-	},
-	{
-	  "name": "Payment Pages"
+	  "component": "Api/PaymentPages.md"
 	},
 	{
 	  "name": "Invoices",
