@@ -27,7 +27,7 @@ $amount = $transaction->amount;
 
 $transactions = $paystack->transactions()->list();
 
-$transactions->map(function ($transaction) {
+$transactionReferences = $transactions->map(function ($transaction) {
     return $transaction->reference;
 });
 ```
