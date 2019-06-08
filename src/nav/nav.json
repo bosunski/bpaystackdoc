@@ -89,13 +89,9 @@
   ],
   "Events": [
 	{
-	  "name": "Introduction"
-	},
-	{
-	  "name": "Listening To Events"
-	},
-	{
-	  "name": "Event Types"
+	  "name": "Handling Events",
+	  "route": "event",
+	  "component": "Events/Introduction.md"
 	}
   ],
   "API Models": [
