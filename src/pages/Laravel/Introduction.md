@@ -25,7 +25,7 @@ $ composer require xeviant/laravel-paystack
 ### Publishing Configuration
 
 ```bash
-$ php artisan vendor:publish --provider="Xeviant\LaravelPaystack\PayStackServiceProvider" --tag=migration
+$ php artisan vendor:publish --provider="Xeviant\LaravelPaystack\PayStackServiceProvider" --tag=config
 ```
 You will see `paystack.php` inside the `config` directory, you can modify the contents of this file to configure the package. Here is a sample content of the `paystack.php` file:
 
@@ -94,7 +94,7 @@ return [
 The Laravel Paystack package uses database to store payloads received by from WebHook calls. By default, the package ships with its own migration to create the table and fields required for it to work. To make changes to the migration you can publish it like so:
 
 ```bash
-$ php artisan vendor:publish --provider="Xeviant\LaravelPaystack\PayStackServiceProvider" --tag=config
+$ php artisan vendor:publish --provider="Xeviant\LaravelPaystack\PayStackServiceProvider" --tag=migration
 ```
 
 ### Register Paystack Facade

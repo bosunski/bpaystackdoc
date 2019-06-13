@@ -1,15 +1,14 @@
 {
   "name": "Paystack-API-Client",
-  "version": "0.0.31",
-  "description": "A powerful Paystack Client for PHP",
+  "version": "1.0.0",
+  "description": "Powerful and Fluent Paystack Client for PHP",
   "keywords": [
-    "vue",
-    "slider",
-    "vue-slider",
-    "vue-component",
-    "vue-slider-component"
+    "paystack",
+    "fluent",
+    "payment",
+    "php",
+    "money"
   ],
-  "main": "./dist/vue-slider-component.umd.min.js",
   "typings": "./typings/index.d.ts",
   "files": [
     "dist",
