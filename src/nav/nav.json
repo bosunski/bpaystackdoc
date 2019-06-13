@@ -12,79 +12,9 @@
 	  "component": "Api/Introduction.md"
 	},
 	{
-	  "name": "Transactions",
-	  "route": "api/transactions",
-	  "component": "Api/Transactions.md"
-	},
-	{
-	  "name": "Customers",
-	  "route": "api/customers",
-	  "component": "Api/Customers.md"
-	},
-	{
-	  "name": "Sub Accounts",
-	  "route": "api/subaccounts",
-	  "component": "Api/SubAccounts.md"
-	},
-	{
-	  "name": "Plans",
-	  "route": "api/plans",
-	  "component": "Api/Plans.md"
-	},
-	{
-	  "name": "Subscriptions",
-	  "route": "api/subscriptions",
-	  "component": "Api/Subscriptions.md"
-	},
-	{
-	  "name": "Payment Pages",
-	  "route": "api/payment-pages",
-	  "component": "Api/PaymentPages.md"
-	},
-	{
-	  "name": "Invoices",
-	  "route": "api/invoices",
-	  "component": "Api/Invoices.md"
-	},
-	{
-	  "name": "Settlements",
-	  "route": "api/settlements",
-	  "component": "Api/Settlements.md"
-	},
-	{
-	  "name": "Transfer Recipients",
-	  "route": "api/transfer-recipients",
-	  "component": "Api/TransferRecipients.md"
-	},
-	{
-	  "name": "Transfers",
-	  "route": "api/transfers",
-	  "component": "Api/Transfers.md"
-	},
-	{
-	  "name": "Transfers Control",
-	  "route": "api/transfers-control",
-	  "component": "Api/TransferControl.md"
-	},
-	{
-	  "name": "Charge",
-	  "route": "api/charge",
-	  "component": "Api/Charge.md"
-	},
-	{
-	  "name": "Refunds",
-	  "route": "api/refunds",
-	  "component": "Api/Refund.md"
-	},
-	{
-	  "name": "Verifications",
-	  "route": "api/verification",
-	  "component": "Api/Verification.md"
-	},
-	{
-	  "name": "Miscellaneous",
-	  "route": "api/miscellaneous",
-	  "component": "Api/Miscellaneous.md"
+	  "name": "Suppoted APIs",
+	  "route": "api/supported",
+	  "component": "Api/Supported.md"
 	}
   ],
   "Events": [
@@ -98,13 +28,19 @@
   ],
   "Laravel Integration": [
 	{
-	  "name": "Introduction"
+	  "name": "Introduction",
+	  "route": "laravel",
+	  "component": "Laravel/Introduction.md"
 	},
 	{
-	  "name": "Setting Up"
+	  "name": "Basic Usage",
+      "route": "laravel/usage",
+      "component": "Laravel/Usage.md"
 	},
 	{
-	  "name": "Paystack WebHook"
+	  "name": "Paystack WebHook",
+      "route": "laravel/webhook",
+      "component": "Laravel/WebHook.md"
 	}
   ]
 }
