@@ -9,7 +9,7 @@ Since we're in a Laravel context, we don't need to `new` the Paystack package as
 <?php
     use Illuminate\Support\Facades\App;
 
-    $paystack = App::make('paystack');
+    $paystack = App::make('xeviant.paystack');
 ```
 
 ### Using the Facade
