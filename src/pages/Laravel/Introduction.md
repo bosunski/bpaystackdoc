@@ -101,7 +101,7 @@ $ php artisan vendor:publish --provider="Xeviant\LaravelPaystack\PayStackService
 Open `config/app.php` and add the line below to the Aliases:
 
 ```php
-'Paystack' => Unicodeveloper\Paystack\Facades\Paystack::class,
+'Paystack' => Xeviant\LaravelPaystack\Facades\Paystack::class,
 ```
 
 ### Run Migrations
