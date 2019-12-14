@@ -86,5 +86,8 @@
     "vue-router": "^3.0.2",
     "vue-template-compiler": "^2.6.6",
     "vuep": "^0.8.1"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
