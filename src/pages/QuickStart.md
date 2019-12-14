@@ -1,5 +1,9 @@
 # QuickStart Guide
 
+## An Example Playground
+
+<iframe scrolling="no" style="width: 100%;height: 300px;" id="ciroueEmbed" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" src="https://www.ciroue.com/e/x/ndzJVN5rPp7ZkY9O"></iframe>
+
 ## Requirements
 - **PHP**: 7.1 and Up
 - Composer
@@ -21,7 +25,9 @@ composer require xeviant/paystack
 
 ```php
 <?php
-    $paystack = new Paystack('PUBLIC_KEY', 'SECRET_KEY');
+    use Xeviant\Paystack\Paystack;
+
+    $paystack = new Paystack('YOUR_PUBLIC_KEY', 'YOUR_SECRET_KEY');
     
     // Retrieves Customers
     $customers = $paystack->customers()->list();
@@ -31,6 +37,8 @@ composer require xeviant/paystack
 
 ```php
 <?php
+    use Xeviant\Paystack\Paystack;
+
     $paystack = Paystack::make('PUBLIC_KEY', 'SECRET_KEY');
     
     // Retrieves Customers

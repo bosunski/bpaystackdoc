@@ -8,8 +8,8 @@ export const getQuery = (): Query => {
     .split('&')
     .filter(Boolean)
     .forEach(item => {
-      const [key, value] = item.split('=');
-      query[key] = value ? decodeURIComponent(value.replace(/\+/g, ' ')) : '';
+      const [key, value] = item.split('=')
+      query[key] = value ? decodeURIComponent(value.replace(/\+/g, ' ')) : ''
     })
 
   return query
