@@ -11,7 +11,7 @@
 ## Installation
 
 ```bash
-composer require xeviant/paystack
+composer require xeviant/paystack:^1.0.4
 ```
 
 ## Including the Package
