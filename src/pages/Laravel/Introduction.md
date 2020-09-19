@@ -20,7 +20,7 @@ In subsequent sections, we will try to explain how to use all these features.
 
 ## Setting up the Laravel Paystack Package
 ```bash
-$ composer require xeviant/laravel-paystack
+$ composer require xeviant/laravel-paystack:^1.6.0
 ```
 ### Publishing Configuration
 
