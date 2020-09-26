@@ -11,7 +11,7 @@
 ## Installation
 
 ```bash
-composer require xeviant/paystack:^1.0.4
+composer require xeviant/paystack:^1.0.4 php-http/guzzle6-adapter:^2.0
 ```
 
 ## Including the Package
