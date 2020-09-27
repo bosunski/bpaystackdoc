@@ -18,15 +18,27 @@ In subsequent sections, we will try to explain how to use all these features.
 ## Requirements
 - Laravel 5.7 and Above
 
-## Setting up the Laravel Paystack Package
+## Installing up the Laravel Paystack Package (Laravel 5.7 - 7.0)
+
 ```bash
 $ composer require xeviant/laravel-paystack:^1.6.0 php-http/guzzle6-adapter:^2.0
 ```
+
+## Installing up the Laravel Paystack Package (Laravel 8.0 and above)
+
+```bash
+$ composer require xeviant/laravel-paystack:^2.0.0 guzzlehttp/guzzle:^7.0.1 http-interop/http-factory-guzzle:^1.0
+```
+
+It is required to install any package that provides `psr/http-client-implementation` and `psr/http-factory-implementation`. That is the reason for installing
+`php-http/guzzle6-adapter` and `http-interop/http-factory-guzzle` respectively in the different versions.
+
 ### Publishing Configuration
 
 ```bash
 $ php artisan vendor:publish --provider="Xeviant\LaravelPaystack\PayStackServiceProvider" --tag=config
 ```
+
 You will see `paystack.php` inside the `config` directory, you can modify the contents of this file to configure the package. Here is a sample content of the `paystack.php` file:
 
 ```php
