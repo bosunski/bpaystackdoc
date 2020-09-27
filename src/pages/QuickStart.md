@@ -16,7 +16,7 @@ composer require xeviant/paystack:^1.0.4 php-http/guzzle6-adapter:^2.0
 For environments that uses Guzzle 7, use `^v2.0.0` instead:
 
 ```bash
-composer require xeviant/paystack:^2.0.0 php-http/guzzle6-adapter:^2.0 guzzlehttp/guzzle:^7.0.1 http-interop/http-factory-guzzle:^1.0
+composer require xeviant/paystack:^2.0.0 guzzlehttp/guzzle:^7.0.1 http-interop/http-factory-guzzle:^1.0
 ```
 
 It is required to install any package that provides psr/http-client-implementation and psr/http-factory-implementation. That is the reason for installing php-http/guzzle6-adapter and http-interop/http-factory-guzzle respectively in the different versions.
