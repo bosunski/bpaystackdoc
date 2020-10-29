@@ -80,5 +80,11 @@ This Paystack Client currently supports all endpoints covered [here][1] in the A
 - `enableOtp(array $parameters = [])`
 - `disableOtpFinalize(array $parameters)`
 
+## bvn(): Identity Verification
+- `resolve(string $bvn)`
+- `resolveCardBin(string $bin)`
+- `resolveAccountNumber(array $parameters)`
+- `resolvePhoneNumber(array $parameters)`
+
 [1]: https://developers.paystack.co/reference
 [2]: /api
