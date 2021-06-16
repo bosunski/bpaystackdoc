@@ -2,7 +2,7 @@
 
 ## An Example Playground
 
-<iframe scrolling="no" style="width: 100%;height: 300px;" id="ciroueEmbed" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" src="https://phpsandbox.io/e/x/ndzJVN5rPp7ZkY9O"></iframe>
+<iframe scrolling="no" style="width: 100%;height: 300px;" id="ciroueEmbed" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts" src="https://phpsandbox.io/e/x/ndzJVN5rPp7ZkY9O"></iframe>
 
 ## Requirements
 - **PHP**: 7.1 and Up
