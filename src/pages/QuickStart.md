@@ -2,7 +2,7 @@
 
 ## An Example Playground
 
-<iframe src="https://phpsandbox.io/e/x/bold-fog-kbrk?&layout=EditorPreview&iframeId=lit3vdbqzm&theme=dark&defaultPath=/&showExplorer=no" style="display: block" loading="lazy" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" height="300" width="100%"></iframe>
+<iframe src="https://phpsandbox.io/e/x/ndzJVN5rPp7ZkY9O?&layout=EditorPreview&iframeId=6paj5p0g0t&theme=dark&defaultPath=/&showExplorer=no" style="display: block" loading="lazy" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" height="300" width="100%"></iframe>
 
 ## Requirements
 - **PHP**: 7.1 and Up
