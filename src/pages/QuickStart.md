@@ -2,10 +2,7 @@
 
 ## An Example Playground
 
-<iframe scrolling="no" style="width: 100%;height: 300px;" id="ciroueEmbed" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts" src="https://phpsandbox.io/e/x/ndzJVN5rPp7ZkY9O"></iframe>
-
-
-<iframe src="https://codesandbox.io/embed/holy-dream-fuh1v?fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="holy-dream-fuh1v" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts" ></iframe>
+<iframe src="https://phpsandbox.io/e/x/bold-fog-kbrk?&layout=EditorPreview&iframeId=lit3vdbqzm&theme=dark&defaultPath=/&showExplorer=no" style="display: block" loading="lazy" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" height="300" width="100%"></iframe>
 
 ## Requirements
 - **PHP**: 7.1 and Up
